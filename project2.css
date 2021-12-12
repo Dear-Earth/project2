@@ -1,0 +1,248 @@
+/* css-reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+   
+    height: 62px;
+    width: 82px;
+}
+.hii{
+    position: relative;
+    left: 15px;
+    bottom: 19px;
+    font-size: 44px;
+}
+/* css-variables */
+:root{
+    --navbar-height:53px;
+}
+/* navigation-bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    
+    height: 60px;
+    width: 78.9rem;
+}
+/* Navigation-bar: logo and image */
+#logo{
+    margin: 1px 15px;
+}
+/* navigation-bar:list styling */
+#navbar ul{
+    display:flex; 
+}
+#navbar::before{
+    content:"";
+    background-color: rgba(61, 74, 104, 0.74); 
+    position: absolute;
+    height: 100%;
+    
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar{
+    position:fixed;
+    
+   
+
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+   
+  
+   
+
+}
+#navbar ul li a{
+
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.774);
+  
+ padding: 8px 15px;
+ text-decoration: none;
+ 
+}
+#navbar ul li a:hover{
+   cursor: cell;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+ text-decoration: overline;
+
+
+}
+
+ul{
+    padding-left: 490px;
+}
+/* Home section */
+#home{
+    display: flex;
+     flex-direction: column;
+     padding: 3px 200px;
+     justify-content: center;
+     align-items: center;
+     height: 563px;
+
+}
+#home::before{
+    content:"";
+    background:url(ramen-g93b6d5120_1920.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0px;
+   
+
+
+}
+
+.arpit{
+    font-size: 33px;
+}
+.arpit1{
+    padding: 20px;
+    font-size: 60px;
+}
+/* utility-classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+#home h1{
+    color: rgb(0, 0, 0);
+    text-align: align;
+    
+}
+#home p{
+    font-family: monospace;
+    color: rgb(14, 8, 1);
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.btn{
+    
+    padding: 9px 21px;
+    border: 2px solid black;
+    background-color: rgba(209, 49, 49, 0.521);
+    font-size: 1.2rem;
+    margin: 12px;
+    border-radius: 12px;
+    color: aliceblue;
+   cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+       font-size:3.8rem;
+       padding: 20px;
+
+}
+.h-secondary{
+font-size:4rem ;
+text-align: center;
+
+}
+#services{
+    margin:3px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid red;
+    padding: 23px;
+    margin:12px;
+    border-radius: 22px;
+    background-color: rgba(199, 201, 189, 0.404);
+}
+#services .box img{
+    height: 156px;
+    width: 156px;
+    margin: auto;
+    display: block;
+    
+}
+#client-section{
+ 
+font-size: small;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clients img{
+    height: 200px;
+    width: 400px;
+   
+
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background: url('lake-g37e49a81b_1920.jpg');
+    width:100%;
+    height: 60%;
+   
+    z-index: -1;
+    opacity: 1;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: url(contact_us.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#contact-box input ,
+#contact-box textarea{
+width: 100%;
+padding: 0.5rem;
+border-radius: 13px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13px;
+}
+#contact-box form{
+    width:40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
